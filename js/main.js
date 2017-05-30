@@ -52,8 +52,8 @@ $(document).ready(function() {
     // PreLoader
     $("body").queryLoader2({
         // Preloader options
-        backgroundColor: "#34495e",
-        barHeight: 2,
+        backgroundColor: "#43DAA9",
+        barHeight: 5,
         minimumTime: 1000,
         fadeOutTime: 2000,
         percentage: true,
