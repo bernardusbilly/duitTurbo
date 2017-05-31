@@ -32,14 +32,17 @@ span {
 .single-service .media:hover .fa::before {
     color: #43DAA9;
 }
+.testimonial-title::after {
+    background: #fff none repeat scroll 0 0;
+}
 .testimonial-body::before {
-  color: #43DAA9;
+  color: #fff;
 }
 .testimonial-section {
   background-color: #43DAA9;
 }
 .client-name::before {
-  background: #43DAA9 none repeat scroll 0 0;
+  background: #fff none repeat scroll 0 0;
 }
 #testimonial-carousel .owl-controls .owl-buttons .owl-prev:hover , #testimonial-carousel .owl-controls .owl-buttons .owl-next:hover {
 	background: #43DAA9;
