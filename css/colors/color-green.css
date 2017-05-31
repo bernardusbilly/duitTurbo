@@ -1,3 +1,6 @@
+.color-bg {
+    background: #43DAA9;
+}
 span {
 	color: #43DAA9;
 }
@@ -31,6 +34,9 @@ span {
 }
 .testimonial-body::before {
   color: #43DAA9;
+}
+.testimonial-section {
+  background-color: #43DAA9;
 }
 .client-name::before {
   background: #43DAA9 none repeat scroll 0 0;

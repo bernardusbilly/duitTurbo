@@ -153,11 +153,17 @@ h6 {
   padding: 16px 0;
 }
 
-.logo h2{
+.logo h2 {
     font-family: "Montserrat",sans-serif;
     font-size: 24px;
     padding: 0;
     text-transform: uppercase;
+}
+.logo img {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: bottom;
+    width: 50px;
 }
 
 
@@ -396,6 +402,9 @@ ul {
 .navbar-custom .navbar-toggle .icon-bar {
     background: #fff;
 }
+.extra-section {
+    padding: 50px 0 50px 0;
+}
 
 /* ============================
     Hero Section
@@ -411,7 +420,6 @@ ul {
     left: 0;
     position: absolute;
     text-align: center;
-    text-transform: uppercase;
     top: 50%;
     -webkit-transform: translate(0%, -50%);
         -ms-transform: translate(0%, -50%);
@@ -439,7 +447,7 @@ ul {
     content: "";
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.5);
 }
 .slider-caption h1 , #main-slide .item.active .slider-content h1 {
   font-size: 72px;
@@ -648,7 +656,7 @@ ul {
     padding: 80px 0 80px 0;
 }
 .video-section .container iframe {
-    height: 80vh;
+    height: 60vh;
     width: 100%;
 }
 
@@ -782,19 +790,9 @@ ul {
 .testimonial-section {
     position: relative;
     width: 100%;
-    background: url("../img/bg/testimonial-bg.jpg") no-repeat scroll center center / cover;
 }
 .testimonial-parallax-bg {
     background: url("../img/bg/testimonial-bg.jpg") no-repeat fixed center center / cover;
-}
-.testimonial-section:before {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    content: "";
-    left: 0;
-    top: 0;
-    background-color: rgba(0, 0, 0, 0.8);
 }
 .testimonial-body p , .testimonial-body .client-name a b {
     color: #fff;
@@ -831,6 +829,7 @@ ul {
   top: 0;
 }
 .testimonial-image img {
+    width: 200px;
     box-shadow: 0px 9px 9px 0px rgba(0,0,0,0.64);
     z-index: 1111;
 }
@@ -1025,6 +1024,7 @@ span.count-description {
 =============================== */
 
 .single-pricing-table {
+    background: #fff;
     border: 1px solid #e7e7e7;
     -webkit-transition: all 0.4s ease-in-out 0s;
             transition: all 0.4s ease-in-out 0s;
@@ -1072,7 +1072,7 @@ span.count-description {
 }
 .single-pricing-table .package-item ul li {
     border-bottom: 1px dashed #e7e7e7;
-    color: #808080;
+    color: #000;
     font-size: 14px;
     font-weight: 400;
     padding: 5px 0;
