@@ -145,7 +145,7 @@ h6 {
 
 }
 .logo {
-    padding: 32px 0;
+    padding: 26px 0;
     -webkit-transition: all 0.4s ease-in-out 0s;
             transition: all 0.4s ease-in-out 0s;
 }
@@ -155,7 +155,7 @@ h6 {
 
 .logo h2 {
     font-family: "Montserrat",sans-serif;
-    font-size: 24px;
+    font-size: 32px;
     padding: 0;
     text-transform: uppercase;
 }
@@ -405,6 +405,9 @@ ul {
 .extra-section {
     padding: 50px 0 50px 0;
 }
+.extra-section hr {
+    border-top: 5px solid #fff;
+}
 
 /* ============================
     Hero Section
@@ -453,7 +456,8 @@ ul {
   font-size: 72px;
   letter-spacing: 3px;
   letter-spacing: 3px;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.8rem;
+  line-height: 90px;
   margin-bottom: 25px;
 }
 .slider-caption h5 , #main-slide .item.active .slider-content h5  {
@@ -656,6 +660,7 @@ ul {
     padding: 80px 0 80px 0;
 }
 .video-section .container iframe {
+    border: 1px solid lightgray;
     height: 60vh;
     width: 100%;
 }
@@ -667,8 +672,12 @@ ul {
 .about-us-left {
     padding: 100px 40px 60px 107px;
 }
+.about-us-left .section-title-left {
+    font-size: 40px;
+    line-height: 40px;
+}
 .about-us-right {
-    background: #1f1f1f none repeat scroll 0 0;
+    background: #43DAA9 none repeat scroll 0 0;
     padding: 60px 110px 60px 75px;
 }
 .about-us-right .media {
@@ -711,7 +720,7 @@ ul {
 }
 
 .about-us-right .media p {
-    color: #808080;
+    color: #fff;
     font-size: 16px;
     line-height: 25px;
 }
@@ -798,7 +807,8 @@ ul {
     color: #fff;
 }
 .testimonial-body p {
-    line-height: 25px;
+    line-height: 30px;
+    font-size: 30px;
 }
 .testimonial-body .client-name a b {
     font-size: 16px;
@@ -820,6 +830,7 @@ ul {
     position: relative;
     padding-top: 40px;
 }
+.testimonial
 .testimonial-body:before {
   content: "";
   font-family: FontAwesome;
@@ -828,16 +839,29 @@ ul {
   position: absolute;
   top: 0;
 }
-.testimonial-image img {
-    width: 200px;
-    box-shadow: 0px 9px 9px 0px rgba(0,0,0,0.64);
-    z-index: 1111;
+.testimonial-image {
+    text-align: center;
 }
-#testimonial-carousel .item img{
+.testimonial-image figure {
+    display: inline-block;
+    margin-top: 50px;
+}
+.testimonial-image figure img {
+    width: 100%;
+}
+#testimonial-carousel .item img {
     display: block;
 }
 #testimonial-carousel {
     position: relative;
+}
+#testimonial-carousel figure {
+    border-radius: 50%;
+    border: 6px solid rgb(27, 178, 129);
+    overflow: hidden;
+    height: 200px;
+    width: 200px;
+    z-index: 1111;
 }
 #testimonial-carousel .owl-controls {
     bottom: -50px;
